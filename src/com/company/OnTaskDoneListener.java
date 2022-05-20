@@ -1,2 +1,6 @@
-package com.company;public interface OnTaskDoneListener {
+package com.company;
+
+@FunctionalInterface
+public interface OnTaskDoneListener {
+    void onDone(String result);
 }
